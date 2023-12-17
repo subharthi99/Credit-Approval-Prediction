@@ -1,4 +1,6 @@
-With this project we aim to compare supervised learning (SL) and semi-supervised (SSL) machine learning techniques and analyze and interpret their performances using the Credit Approval Dataset from the Keel Machine Learning Dataset.
+With this project we aim to compare supervised learning (SL) and semi-supervised (SSL) machine learning techniques and analyze and interpret their performances using the Credit Approval Dataset from the Keel Machine Learning Dataset - Resembling a case study from Capital One.
+
+![Capital One Logo](assets/capital-one.png)
 
 For the SL case, we have identified a trivial classifier which randomly outputs class probabilities weighted by training priors, two baseline classifiers (Nearest Centroid and Logistic Regression) and five machine learning models (CART Decision Tree, AdaBoost, KNN Classifier, Random Forest and SVM Classifier). We used KNN Imputer to handle missing data, RFE, Chi-Square and GridSearch techniques for Feature Selection, PCA for dimensionality reduction, GridSearchCV for parameter selection and trained each model. We then used the best model to evaluate the test-set performance.
 
